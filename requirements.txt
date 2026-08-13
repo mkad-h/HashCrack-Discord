@@ -1,0 +1,7 @@
+discord.py>=2.3.2
+python-dotenv>=1.0.0
+vastai>=1.5.0
+aiosqlite>=0.20.0
+colorama>=0.4.6
+paramiko>=3.4.0
+aiofiles>=23.2.1
