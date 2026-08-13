@@ -21,7 +21,7 @@ Basado en la idea de HashCrack-AI de TJ Null, pero hecho para jobs asíncronos +
 ## Instalación rápida
 
 ```bash
-git clone hashcrack-discord   # usando la URL
+git clone https://github.com/mkad-h/HashCrack-Discord   # usando la URL
 cd hashcrack-discord
 
 python3 -m venv venv
@@ -32,7 +32,6 @@ pip install -r requirements.txt # Sí esta en cloud, preferible hacerlo de forma
 pip install vastai
 vastai set api-key TU_VAST_API_KEY
 
-cp .env.example .env
 nano .env   # AGREGAR DISCORD_TOKEN + ALLOWED_USER_IDS + VAST_API_KEY
 ```
 
